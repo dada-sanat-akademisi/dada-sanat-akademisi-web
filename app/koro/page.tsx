@@ -51,7 +51,7 @@ export default function ChoirPage() {
               </p>
 
               <p>
-                DADA'da koro, sadece şarkı söylemek değil; dinlemek, uyum sağlamak,
+                DADA’da koro, sadece şarkı söylemek değil; dinlemek, uyum sağlamak,
                 birlikte nefes almak demektir. Her provada, hem kendi sesini hem de
                 topluluğun sesini keşfedersin.
               </p>

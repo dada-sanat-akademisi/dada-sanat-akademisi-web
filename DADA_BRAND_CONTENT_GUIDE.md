@@ -67,7 +67,7 @@ Maddeye ruh ver, formu duyguya dönüştür. Heykel, dokunmanın en kalıcı hal
 ### (Keman Örneği)
 
 ### Duygusal Açılış Paragrafı
-Keman, sadece bir enstrüman değil; seninle birlikte büyüyen, seninle birlikte nefes alan bir yol arkadaşı. DADA'da keman eğitimi, teknik egzersizlerden öte bir keşif yolculuğu. Her tel, her yay hareketi, senin kendi müzik dilini oluşturmanın bir parçası. Burada öğrenmezsin; keşfedersin.
+Keman, sadece bir enstrüman değil; seninle birlikte büyüyen, seninle birlikte nefes alan bir yol arkadaşı. DADA’da keman eğitimi, teknik egzersizlerden öte bir keşif yolculuğu. Her tel, her yay hareketi, senin kendi müzik dilini oluşturmanın bir parçası. Burada öğrenmezsin; keşfedersin.
 
 ### Kimler için?
 - Müziğe ilk adımını atanlar
@@ -78,7 +78,7 @@ Keman, sadece bir enstrüman değil; seninle birlikte büyüyen, seninle birlikt
 - Sanatla kendini ifade etmek isteyenler
 
 ### Eğitim Yaklaşımı
-DADA'da keman eğitimi, geleneksel metotlarla çağdaş yaklaşımı birleştirir. Teknik temeller sağlam atılırken, her öğrencinin bireysel müzikal kimliği keşfedilir. Dersler, bireysel çalışmaların yanı sıra grup performansları ve sahne deneyimleriyle zenginleştirilir. Sadece çalmayı değil, dinlemeyi, yorumlamayı ve yaratmayı öğrenirsin.
+DADA’da keman eğitimi, geleneksel metotlarla çağdaş yaklaşımı birleştirir. Teknik temeller sağlam atılırken, her öğrencinin bireysel müzikal kimliği keşfedilir. Dersler, bireysel çalışmaların yanı sıra grup performansları ve sahne deneyimleriyle zenginleştirilir. Sadece çalmayı değil, dinlemeyi, yorumlamayı ve yaratmayı öğrenirsin.
 
 ### Bu Eğitimde Ne Kazanırsın?
 - Keman tekniğinin sağlam temelleri
@@ -102,7 +102,7 @@ DADA, bir kurs merkezi değildir. Sertifika dağıtan, müfredatı takip eden, �
 Sanat, disiplinle özgürlüğün buluştuğu yerdir. Teknik mükemmellik, yaratıcı cesareti kısıtlamaz; tam tersine, onu güçlendirir. Her öğrenci, kendi sanatsal yolculuğunun kahramanıdır. Biz, sadece rehberiz.
 
 ### Öğrenciye Bakış
-DADA'da öğrenci, boş bir kap değildir. Herkesin içinde zaten bir sanatçı var. Bizim işimiz, o sanatçıyı uyandırmak, cesaretlendirmek ve kendi sesini bulmasına yardımcı olmak. Yaş, seviye, geçmiş—hiçbiri önemli değil. Önemli olan, sanatla kurmak istediğin ilişki.
+DADA’da öğrenci, boş bir kap değildir. Herkesin içinde zaten bir sanatçı var. Bizim işimiz, o sanatçıyı uyandırmak, cesaretlendirmek ve kendi sesini bulmasına yardımcı olmak. Yaş, seviye, geçmiş—hiçbiri önemli değil. Önemli olan, sanatla kurmak istediğin ilişki.
 
 ### Çoklu Disiplin Felsefesi
 Müzik, resim, dans, heykel—hepsi aynı dilin farklı lehçeleri. DADA, tek bir dalda uzmanlaşmayı değil, sanatın farklı dillerini konuşabilmeyi önemser. Çünkü gerçek yaratıcılık, sınırların ötesinde doğar.

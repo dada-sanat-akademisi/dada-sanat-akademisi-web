@@ -50,7 +50,7 @@ export default function AcademyPage() {
               </p>
 
               <p>
-                DADA'da öğrenci, boş bir kap değildir. Herkesin içinde zaten bir sanatçı var.
+                DADA’da öğrenci, boş bir kap değildir. Herkesin içinde zaten bir sanatçı var.
                 Bizim işimiz, o sanatçıyı uyandırmak, cesaretlendirmek ve kendi sesini
                 bulmasına yardımcı olmak.
               </p>
@@ -79,7 +79,7 @@ export default function AcademyPage() {
                 Yaş, seviye, geçmiş—hiçbiri önemli değil. Önemli olan, sanatla kurmak
                 istediğin ilişki. Müziğe ilk adımını atanlar, görsel sanatlarla derin bir
                 bağ kurmak isteyenler, kendi bestelerini yapmak isteyenler, konservatuvar
-                hazırlığı yapanlar, sanatı ciddi bir hobi olarak görenler—hepsi DADA'da
+                hazırlığı yapanlar, sanatı ciddi bir hobi olarak görenler—hepsi DADA’da
                 yerini bulur.
               </p>
 

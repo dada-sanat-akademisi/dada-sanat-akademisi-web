@@ -40,7 +40,7 @@ export default function ContactPage() {
           <div className="space-y-8 text-charcoal/80 leading-relaxed">
             <div className="space-y-6">
               <p>
-                DADA'ya gelmek, bir kursa kaydolmak, eğitim yaklaşımımız hakkında daha
+                DADA’ya gelmek, bir kursa kaydolmak, eğitim yaklaşımımız hakkında daha
                 fazla bilgi almak istiyorsan—seni dinlemek isteriz.
               </p>
 
