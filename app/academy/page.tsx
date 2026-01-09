@@ -66,7 +66,7 @@ export default function AcademyPage() {
               </p>
 
               <p>
-                Sahne, atölye, stüdyo—bunlar DADA'nın gerçek sınıflarıdır. Sertifika değil,
+                Sahne, atölye, stüdyo—bunlar DADA’nın gerçek sınıflarıdır. Sertifika değil,
                 eser üretmek. Teori değil, pratik. İzlemek değil, yapmak. Her öğrenci,
                 eğitim sürecinde gerçek izleyicilerle, gerçek eserlerle buluşur.
               </p>
