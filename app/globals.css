@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 246 244 239;
+    --foreground: 20 20 20;
+    --card: 255 255 255;
+    --card-foreground: 20 20 20;
+    --popover: 255 255 255;
+    --popover-foreground: 20 20 20;
+    --primary: 212 175 55;
+    --primary-foreground: 20 20 20;
+    --secondary: 240 237 230;
+    --secondary-foreground: 20 20 20;
+    --muted: 240 237 230;
+    --muted-foreground: 80 80 80;
+    --accent: 212 175 55;
+    --accent-foreground: 20 20 20;
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 230 228 220;
+    --input: 240 237 230;
+    --ring: 212 175 55;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-ivory text-charcoal;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Glassmorphism utility */
+  .glass {
+    @apply backdrop-blur-md bg-white/80 border border-charcoal/10;
+  }
+  
+  /* Musical timing utilities */
+  .transition-beat {
+    transition-duration: 300ms;
+  }
+  
+  .transition-half-beat {
+    transition-duration: 150ms;
+  }
+  
+  .transition-whole-beat {
+    transition-duration: 600ms;
+  }
+
+  /* Text truncation utilities */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Animation utilities (for scroll-triggered animations) */
+  .animate-in {
+    animation-name: fade-in;
+  }
+
+  .fade-in {
+    animation-name: fade-in;
+  }
+
+  .slide-in-from-bottom-4 {
+    animation-name: slide-in-from-bottom-4;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-in-from-bottom-4 {
+    from {
+      opacity: 0;
+      transform: translateY(1rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Respect prefers-reduced-motion */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-in,
+    .fade-in,
+    .slide-in-from-bottom-4 {
+      animation: none !important;
+    }
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-ivory;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-charcoal/20 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-charcoal/30;
+}
+
+/* Hero Background - Phase 3 Implementation */
+/* CSS-only gradient with subtle animation and noise overlay */
+.hero-background-static {
+  /* Base gradient: Light ivory to warm white */
+  background: linear-gradient(
+    135deg,
+    #F6F4EF 0%,
+    #FAF9F6 25%,
+    #F6F4EF 50%,
+    #FAF9F6 75%,
+    #F6F4EF 100%
+  );
+  background-size: 200% 200%;
+  background-position: 0% 50%;
+  
+  /* Noise texture overlay using pseudo-element */
+  position: relative;
+}
+
+.hero-background-static::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  /* Noise texture created via SVG data URI */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.025'/%3E%3C/svg%3E");
+  opacity: 1;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+/* Very slow gradient animation (20s loop) - Desktop only, motion preference respected */
+@media (prefers-reduced-motion: no-preference) {
+  @media (min-width: 769px) {
+    .hero-background-static {
+      animation: hero-gradient-shift 20s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes hero-gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+}
+
+/* Mobile: Static gradient only (no animation) */
+@media (max-width: 768px) {
+  .hero-background-static {
+    /* Static gradient, no animation */
+    background: linear-gradient(135deg, #F6F4EF 0%, #FAF9F6 100%);
+    background-size: 100% 100%;
+    background-position: center;
+    animation: none;
+  }
+  
+  /* Simplified noise on mobile (less opacity) */
+  .hero-background-static::before {
+    opacity: 0.75;
+  }
+}
+
+/* Respect prefers-reduced-motion: Disable all animations */
+@media (prefers-reduced-motion: reduce) {
+  .hero-background-static {
+    animation: none !important;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  /* Disable smooth scroll */
+  html {
+    scroll-behavior: auto;
+  }
+}
+
